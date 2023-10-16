@@ -2,6 +2,7 @@ package com.fintechbackend.domain.services;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -27,7 +28,7 @@ public class UserService {
     }
   }
 
-  public User findUserById(Long id) throws Exception {
+  public User findUserById(UUID id) throws Exception {
     return this.repository.findUserById(id).orElseThrow(() -> new Exception("Usuário não encontrado"));
   }
 
