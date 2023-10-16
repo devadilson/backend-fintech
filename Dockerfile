@@ -8,7 +8,7 @@ COPY . .
 RUN apt-install maven -y
 RUN mvn clean iinstall
 
-FROM openjdk-17-jdk-slim
+FROM openjdk:17-jdk-slim
 
 EXPOSE 8080
 
