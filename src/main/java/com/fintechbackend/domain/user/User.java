@@ -5,7 +5,6 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 import org.hibernate.annotations.CreationTimestamp;
-
 import com.fintechbackend.domain.user.dtos.UserDTO;
 
 import jakarta.persistence.Column;
@@ -29,7 +28,6 @@ import lombok.Setter;
 @NoArgsConstructor
 @EqualsAndHashCode(of = "id")
 public class User {
-
   @Id
   @GeneratedValue(generator = "UUID")
   private UUID id;
@@ -56,10 +54,9 @@ public class User {
     this.firstName = data.firstName();
     this.lastName = data.lastName();
     this.balance = data.balance();
-    this.email = data.email();
+    this.userType = data.userType();
     this.password = data.password();
     this.document = data.document();
-    this.userType = data.userType();
+    this.email = data.email();
   }
-
 }

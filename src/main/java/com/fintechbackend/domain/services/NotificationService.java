@@ -23,12 +23,12 @@ public class NotificationService {
     // restTemplate.postForEntity("http://o4d9z.mocklab.io/notify",
     // notificationRequest, String.class);
 
-    // if(!(notificationResponse.getStatusCode() == HttpStatus.OK)){
-    // System.out.println("erro ao enviar notificacao");
+    // if (!(notificationResponse.getStatusCode() == HttpStatus.OK)) {
+    // System.out.println("erro ao enviar notificação");
     // throw new Exception("Serviço de notificação está fora do ar");
     // }
 
-    System.out.println("Notificacao enviada para o o usuario");
+    System.out.println("Notificação enviada para o o usuario");
 
   }
 
