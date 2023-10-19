@@ -7,10 +7,10 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.fintechbackend.domain.dtos.UserDTO;
 import com.fintechbackend.domain.repositories.UserRepository;
 import com.fintechbackend.domain.user.User;
 import com.fintechbackend.domain.user.UserType;
+import com.fintechbackend.domain.user.dtos.UserDTO;
 
 @Service
 public class UserService {

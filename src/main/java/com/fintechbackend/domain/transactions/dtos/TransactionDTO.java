@@ -1,4 +1,4 @@
-package com.fintechbackend.domain.dtos;
+package com.fintechbackend.domain.transactions.dtos;
 
 import java.math.BigDecimal;
 import java.util.UUID;

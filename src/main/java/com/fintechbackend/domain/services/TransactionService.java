@@ -10,9 +10,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import com.fintechbackend.domain.dtos.TransactionDTO;
 import com.fintechbackend.domain.repositories.TransactionRepository;
 import com.fintechbackend.domain.transactions.Transaction;
+import com.fintechbackend.domain.transactions.dtos.TransactionDTO;
 import com.fintechbackend.domain.user.User;
 
 @Service

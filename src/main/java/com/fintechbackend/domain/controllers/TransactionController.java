@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fintechbackend.domain.dtos.TransactionDTO;
 import com.fintechbackend.domain.services.TransactionService;
 import com.fintechbackend.domain.transactions.Transaction;
+import com.fintechbackend.domain.transactions.dtos.TransactionDTO;
 
 @RestController
 @RequestMapping("/transactions")

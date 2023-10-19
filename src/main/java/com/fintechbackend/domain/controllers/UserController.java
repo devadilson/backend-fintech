@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fintechbackend.domain.dtos.UserDTO;
 import com.fintechbackend.domain.services.UserService;
 import com.fintechbackend.domain.user.User;
+import com.fintechbackend.domain.user.dtos.UserDTO;
 
 @RestController
 @RequestMapping("/users")

@@ -6,7 +6,7 @@ import java.util.UUID;
 
 import org.hibernate.annotations.CreationTimestamp;
 
-import com.fintechbackend.domain.dtos.UserDTO;
+import com.fintechbackend.domain.user.dtos.UserDTO;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
